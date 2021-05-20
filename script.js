@@ -14,11 +14,7 @@ function createPin(){
 function resetAll(){
     const typedInput=document.getElementById('typed-input');
     typedInput.value="";
-    const currectPin=document.getElementById('currect');
-    const inCurrectPin=document.getElementById('incurrect');
-
-    currectPin.style.display='none';
-    inCurrectPin.style.display='none';
+    displayNotification('none','none');
 }
 
 
